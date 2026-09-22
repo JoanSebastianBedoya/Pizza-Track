@@ -13,9 +13,13 @@ En la clase pila.java programamos la lógica manual (push, pop, peek, isEmpty)
 
 **pop:** Eliminamos la pizza simplemente modificando el atributo tope, pero cada vez que hacemos pop, tenemos que hacer push en la otra pila, entonces capturamos el tope actual (la pizza que vamos a sacar) en una variable temporal y actualizamos el tope con la pizza que se encontraba en el atributo siguiente de la pizza que acabamos de eliminar
 
-**nodo 1**                   **nodo 2 **
-Pizza: hawaiana          Pizza: Pepperoni
-Siguiente: Pepperoni     Siguiente: null
+**nodo 1**                   
+Pizza: hawaiana          
+Siguiente: Pepperoni
+
+**nodo 2 **
+Pizza: Pepperoni
+Siguiente: null
 
 hawaina se guarda en pizzasacada
 tope = siguiente de nodo 1 es decir "Pepperoni"
@@ -27,7 +31,7 @@ En caso de que los tenga solo retornamos getPizza apuntando al tope actual, tope
 **isEmpty:** Evalúa si hay pizzas en la pila usando como condición si tope es null, en caso de que sea null arroja true caso contrario arroja else 
 este no lo utilizamos como una acción de consola pero si como condición en los métodos deshacer y rehacer
 
-================================================================================================================================================================================
+==========================================================================================================================================================
 
 En gestionPedidos.java definimos la pilaprincipal (pedidos activos) y pilasecundaria (pedidos deshechos)
 
@@ -43,7 +47,7 @@ luego hacemos push de "pizzarecuperada" a la pilaprincipal
 
 **MostrarPedidoActual:** Llamamos el método peek que internamente evalúa si hay pizzas en la pilaprincipal y retorna el tope
 
-================================================================================================================================================================================
+==========================================================================================================================================================
 
 Por ultimo en main.java llamamos el método que corresponda con la acción elegida en consola
 
