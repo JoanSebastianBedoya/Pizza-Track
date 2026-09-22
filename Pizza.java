@@ -1,6 +1,6 @@
 public class Pizza {
     private String nombre;
-    private String [] ingredientes;
+    private String[] ingredientes;
 
     public Pizza (String nombre, String[] ingredientes) {
         this.nombre = nombre;
