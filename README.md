@@ -17,7 +17,7 @@ En la clase pila.java programamos la lógica manual (push, pop, peek, isEmpty)
 Pizza: hawaiana          
 Siguiente: Pepperoni
 
-**nodo 2 **
+**nodo 2**
 Pizza: Pepperoni
 Siguiente: null
 
@@ -62,28 +62,35 @@ Por ultimo en main.java llamamos el método que corresponda con la acción elegi
 
 **CAPTURAS:**
 
-Agregamos la primera pizza y la mostramos
+**1. Agregamos la primera pizza y la mostramos:**
 
-<img width="586" height="871" alt="Captura de pantalla 2026-09-22 120518" src="https://github.com/user-attachments/assets/f741bfaf-c6da-4316-892f-763cbf412931" />
+<img width="601" height="874" alt="imagen" src="https://github.com/user-attachments/assets/68ee837b-f97b-4fa5-b3f7-dc7dabba04ff" />
 
-Agregamos 2 pizzas mas (Pollo (tope) > Pepperoni > Hawaiana)
+**2. Agregamos 2 Pizzas mas (Hawaiana (tope) > Pollo > Pepperoni > Null)**
 
-<img width="602" height="895" alt="Captura de pantalla 2026-09-22 120830" src="https://github.com/user-attachments/assets/cd82bbb7-8ef1-489b-8329-ff450e102884" />
+Ingresamos Pollo:
 
-Mostramos la pizza que esta en el tope (pollo) y deshacemos la ultima pizza, posteriormente volver a solicitar la pizza del tope
+<img width="572" height="660" alt="imagen" src="https://github.com/user-attachments/assets/522b70ea-fadc-4a87-9431-9f72973e7a8e" />
 
-<img width="602" height="895" alt="Captura de pantalla 2026-09-22 120830" src="https://github.com/user-attachments/assets/3fb46314-fdb6-4723-b79c-fa08b50405ad" />
+Ingresamos Hawaiana:
 
-Deshacemos nuevamente, llegando a hawaiana otra vez como tope
-<img width="602" height="895" alt="Captura de pantalla 2026-09-22 120830" src="https://github.com/user-attachments/assets/f10a5056-f02e-4f03-96e7-7e3ec4838274" />
+<img width="597" height="669" alt="imagen" src="https://github.com/user-attachments/assets/a91d116a-5c74-4749-9647-2f6a5cc3fa12" />
 
-Por ultimo rehacemos, hasta volver a tener "Pollo" como tope
+**Llegamos a Pepperoni con la accion "Deshacer" 2 veces**
 
-<img width="673" height="900" alt="imagen" src="https://github.com/user-attachments/assets/f1ec8cbe-15fa-4e60-9638-393854842853" />
+<img width="593" height="904" alt="imagen" src="https://github.com/user-attachments/assets/4d7ae3ae-3870-4588-9853-e2a469814006" />
 
-Por ultimo opción deshacer, rehacer y mostrar pedidos sin pizzas en las pilas
+**Llegamos a Hawaiana con la accion "Rehacer" 2 veces**
 
-<img width="627" height="873" alt="imagen" src="https://github.com/user-attachments/assets/c166c712-b32b-499c-ab26-b4adff671d20" />
+<img width="615" height="746" alt="imagen" src="https://github.com/user-attachments/assets/88260c5c-2d10-4c73-a4c1-6e632c964b0f" />
+
+**Escenarios donde no hay pizzas que Mostrar, Deshacer y Rehacer**
+
+<img width="612" height="893" alt="imagen" src="https://github.com/user-attachments/assets/32325ec5-3fee-4186-93e2-a0d6d1513499" />
+
+
+
+
 
 **VIDEO**
 
